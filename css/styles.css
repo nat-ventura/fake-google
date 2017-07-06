@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    /*this decorates elements.. which you will probably do very rarely*/
+    /*just nice to show how the inheriting works i guess*/
+    /*git advice: ask them to walk you through their git history*/
+    /*git commits should be tiny and digestible*/
+}
+
+.search-field {
+    height: 44px;
+    width: 484px;
+    box-shadow: 0px 3px 5px  #666666;
+    /* note that this box shadow thing is pretty cool :) */
+    /* even tho this is an mvp shadow.. minimum viable product lol */
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.logo span {
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.action-button {
+    display: none;
+    background-color: #f2f2f2;
+    /* these pairs of digits map to the numbers 0-255 */
+    border: none;
+    padding: 8px 16px;
+}
